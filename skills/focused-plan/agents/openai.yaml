@@ -1,0 +1,7 @@
+interface:
+  display_name: "Focused Plan"
+  short_description: "Create a concise implementation plan grounded in existing code"
+  default_prompt: "Use $focused-plan to inspect the relevant code and create a concise implementation plan. Identify meaningful changes, existing code to reuse, validation, and material risks. Do not implement changes."
+
+policy:
+  allow_implicit_invocation: false
