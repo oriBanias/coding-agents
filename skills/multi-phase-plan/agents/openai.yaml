@@ -1,0 +1,7 @@
+interface:
+  display_name: "Multi-Phase Plan"
+  short_description: "Plan work as coherent, verifiable implementation phases"
+  default_prompt: "Use $multi-phase-plan to inspect the relevant code and propose meaningful implementation phases. Present the outline for approval before writing the linked index and phase files. Include acceptance criteria and verification steps. Do not implement changes."
+
+policy:
+  allow_implicit_invocation: false
