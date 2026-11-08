@@ -1,0 +1,7 @@
+interface:
+  display_name: "Handoff"
+  short_description: "Save task context and next steps for another agent"
+  default_prompt: "Use $handoff to write a lean handoff document for the current task. Capture the goal, verified progress, key decisions, relevant files, validation results, and next steps so another agent can continue."
+
+policy:
+  allow_implicit_invocation: false
