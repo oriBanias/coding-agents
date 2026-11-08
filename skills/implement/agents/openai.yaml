@@ -1,0 +1,7 @@
+interface:
+  display_name: "Implement"
+  short_description: "Implement, integrate, and validate an agreed task"
+  default_prompt: "Use $implement to complete the agreed task or plan. Use focused subagents when available and useful, integrate the changes, and run appropriate checks. Report the result and any remaining limitations."
+
+policy:
+  allow_implicit_invocation: false
