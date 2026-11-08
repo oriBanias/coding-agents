@@ -1,0 +1,7 @@
+interface:
+  display_name: "Double CR"
+  short_description: "Review correctness and code quality with focused reviewers"
+  default_prompt: "Use $double-cr to review these changes with separate feature-completeness and code-quality reviewers. Consolidate verified findings without modifying files."
+
+policy:
+  allow_implicit_invocation: false
