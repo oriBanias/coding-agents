@@ -1,0 +1,7 @@
+interface:
+  display_name: "Brainstorm"
+  short_description: "Clarify ideas through focused questions and tradeoffs"
+  default_prompt: "Use $brainstorm to explore this idea through focused product and architecture questions. Clarify goals, constraints, assumptions, and tradeoffs without creating an implementation plan or writing code."
+
+policy:
+  allow_implicit_invocation: false
