@@ -1,0 +1,7 @@
+interface:
+  display_name: "Initialize Repo Docs"
+  short_description: "Create lean documentation grounded in repository code"
+  default_prompt: "Use $init-repo-docs to inspect this repository and establish or improve its documentation. Preserve useful existing docs, clarify essential gaps, create a concise index and utility catalog, and review the result for accuracy and duplication."
+
+policy:
+  allow_implicit_invocation: false
