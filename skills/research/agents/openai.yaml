@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research"
+  short_description: "Investigate questions using code, documentation, and web sources"
+  default_prompt: "Use $research to investigate this question. Gather relevant evidence, verify the key findings, and provide a concise answer with sources and any important uncertainties."
