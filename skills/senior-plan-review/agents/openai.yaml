@@ -1,0 +1,7 @@
+interface:
+  display_name: "Senior Plan Review"
+  short_description: "Simplify a plan while preserving required behavior"
+  default_prompt: "Use $senior-plan-review to review the current plan against my requirements and the relevant code. Remove unjustified complexity, preserve necessary safeguards, and update the plan without implementing it."
+
+policy:
+  allow_implicit_invocation: false
