@@ -1,0 +1,7 @@
+interface:
+  display_name: "Smart CR"
+  short_description: "Scale code review to the scope and risk of local changes"
+  default_prompt: "Use $smart-cr to review my local Git changes for correctness and unnecessary complexity. Scale the review effort appropriately, verify findings, and report actionable issues without editing files."
+
+policy:
+  allow_implicit_invocation: false
