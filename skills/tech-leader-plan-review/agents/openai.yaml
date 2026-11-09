@@ -1,0 +1,7 @@
+interface:
+  display_name: "Tech Leader Plan Review"
+  short_description: "Find and correct concrete problems in an implementation plan"
+  default_prompt: "Use $tech-leader-plan-review to check the current plan against my requirements and the relevant code. Identify concrete correctness, dependency, and data-flow problems, then update the plan with justified fixes. Do not implement changes."
+
+policy:
+  allow_implicit_invocation: false
