@@ -1,0 +1,7 @@
+interface:
+  display_name: "Project Context"
+  short_description: "Gather focused project context from documentation and code"
+  default_prompt: "Use $project-context to read the relevant project guidance and documentation, verify important details against the code, and summarize the context needed for my task. Keep exploration focused and identify any unresolved gaps."
+
+policy:
+  allow_implicit_invocation: false
