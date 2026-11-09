@@ -1,0 +1,7 @@
+interface:
+  display_name: "Resume Handoff"
+  short_description: "Verify and resume a saved handoff after confirmation"
+  default_prompt: "Use $resume-handoff to read the selected handoff and verify its context against the current project. Confirm your understanding with me before moving it to handoffs/taken/ and continuing the authorized work."
+
+policy:
+  allow_implicit_invocation: false
