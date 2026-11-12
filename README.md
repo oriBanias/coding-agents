@@ -70,6 +70,18 @@ Edits made through a symbolic link change the original resource in this reposito
 
 This is an evolving personal toolkit. Resources may change as I learn, test new approaches, and refine my workflow.
 
+### Choosing when a skill runs
+
+Skills such as `wt-cleanup` and `implement` are selected explicitly.
+In Codex, use `$skill-name`. In Claude Code, use `/skill-name`.
+
+When adding an explicit-only skill, set `policy.allow_implicit_invocation`
+to `false` in its `agents/openai.yaml` and `disable-model-invocation`
+to `true` in its `SKILL.md` frontmatter.
+
+Skills intended for automatic use, such as `research`, can keep their
+default invocation settings.
+
 ## License
 
 Original content in this repository is licensed under the [MIT License](LICENSE).
