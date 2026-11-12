@@ -1,0 +1,7 @@
+interface:
+  display_name: "Update Docs"
+  short_description: "Refresh affected documentation after a completed code change"
+  default_prompt: "Use $update-docs to review the completed change, update the affected documentation, and verify its references. If the existing docs already cover the change accurately, say so."
+
+policy:
+  allow_implicit_invocation: false
