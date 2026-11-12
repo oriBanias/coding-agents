@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$HOME/.codex/hooks/check-file-length-stop.sh\"",
+            "commandWindows": "\"C:/Program Files/Git/bin/bash.exe\" \"C:/path/to/coding-agents/hooks/check-file-length-stop.sh\"",
+            "statusMessage": "Checking changed file lengths",
+            "timeout": 20
+          }
+        ]
+      }
+    ]
+  }
+}
