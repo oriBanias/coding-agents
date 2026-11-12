@@ -87,3 +87,5 @@ default invocation settings.
 Original content in this repository is licensed under the [MIT License](LICENSE).
 
 Any included third-party material remains subject to its original license and attribution requirements.
+
+See the [hook guide](hooks.md) for available hooks, required companion files, and Windows setup.
