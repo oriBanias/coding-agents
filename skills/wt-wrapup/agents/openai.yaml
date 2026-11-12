@@ -1,0 +1,7 @@
+interface:
+  display_name: "Worktree Wrapup"
+  short_description: "Merge the latest base into an approved feature worktree"
+  default_prompt: "Use $wt-wrapup to bring my approved feature branch up to date with its base. Resolve clear conflicts, ask about conflicting behavior, and verify the combined result."
+
+policy:
+  allow_implicit_invocation: false
