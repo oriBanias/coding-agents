@@ -1,0 +1,7 @@
+interface:
+  display_name: "Worktree Cleanup"
+  short_description: "Remove a completed worktree after verifying its remote commit"
+  default_prompt: "Use $wt-cleanup to identify the completed linked worktree, check for local files to preserve, verify its commit on the remote, and remove the worktree and local branch when those checks pass."
+
+policy:
+  allow_implicit_invocation: false
